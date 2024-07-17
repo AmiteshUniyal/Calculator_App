@@ -11,7 +11,7 @@ function clearInput() {
     output.value = '';
 }
 
-function hello() {
+function delete_last_value() {
     current_value = current_value.slice(0, -1);
     output.value = current_value;
 }
